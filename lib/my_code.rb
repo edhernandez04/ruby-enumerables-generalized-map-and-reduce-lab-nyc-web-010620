@@ -9,7 +9,7 @@ end
 new_array
 end
 
-def reduce(array, start=0)
+def reduce(array, start)
   total=0
   i=0
   while i < array.length do
