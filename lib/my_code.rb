@@ -9,12 +9,11 @@ end
 new_array
 end
 
-def reduce(array, start)
-  total=0
-  i=0
-  while i < array.length do
-    total += yield(array[i])
-    i+=1
-  end
-  total
+def reduce(array, start=nil)
+  if start
+    num1 = start
+    i = 0
+  else
+    num1 = array[0]
+    i = 0
 end
